@@ -24,5 +24,8 @@ public void down(ActionEvent e) {
 	myCircle.setCenterX(x+=1);
 	
 	
+	
+	
+	
 }
 }
