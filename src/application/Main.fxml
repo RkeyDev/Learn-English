@@ -2,14 +2,30 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="1160.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Button">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Button layoutX="82.0" layoutY="314.0" mnemonicParsing="false" onKeyPressed="#left" text="left" />
-      <Button layoutX="528.0" layoutY="115.0" mnemonicParsing="false" onKeyPressed="#up" text="up" />
-      <Button layoutX="936.0" layoutY="302.0" mnemonicParsing="false" onKeyPressed="#right" text="right" />
-      <Button layoutX="528.0" layoutY="431.0" mnemonicParsing="false" onKeyPressed="#down" text="down" />
-      <Circle fx:id="myCircle" fill="DODGERBLUE" layoutX="551.0" layoutY="302.0" radius="65.0" stroke="BLACK" strokeType="INSIDE" />
+      <Text layoutX="251.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="learn english">
+         <font>
+            <Font name="Berlin Sans FB" size="44.0" />
+         </font>
+      </Text>
+      <Button layoutX="155.0" layoutY="177.0" mnemonicParsing="false" style="-fx-background-radius: 9; -fx-background-color: #dbdbdb;" text="vocabulary" textFill="#474747f8">
+         <font>
+            <Font name="Tahoma Bold" size="28.0" />
+         </font>
+      </Button>
+      <Button layoutX="402.0" layoutY="177.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="193.0" style="-fx-background-radius: 9; -fx-background-color: #dbdbdb;" text="grammer" textFill="#474747f8">
+         <font>
+            <Font name="Tahoma Bold" size="28.0" />
+         </font>
+      </Button>
+      <Text layoutX="145.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="learn english by lessons and games">
+         <font>
+            <Font name="Berlin Sans FB" size="31.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
