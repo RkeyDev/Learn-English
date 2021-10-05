@@ -7,22 +7,22 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Text layoutX="251.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="learn english">
+      <Text layoutX="251.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="learn english" AnchorPane.bottomAnchor="397.0" AnchorPane.leftAnchor="251.0" AnchorPane.rightAnchor="266.5546875" AnchorPane.topAnchor="37.0">
          <font>
             <Font name="Berlin Sans FB" size="44.0" />
          </font>
       </Text>
-      <Button layoutX="155.0" layoutY="177.0" mnemonicParsing="false" style="-fx-background-radius: 9; -fx-background-color: #dbdbdb;" text="vocabulary" textFill="#474747f8">
+      <Button layoutX="155.0" layoutY="177.0" mnemonicParsing="false" style="-fx-background-radius: 9; -fx-background-color: #dbdbdb;" text="vocabulary" textFill="#474747f8" AnchorPane.bottomAnchor="254.0" AnchorPane.leftAnchor="155.0" AnchorPane.rightAnchor="396.0" AnchorPane.topAnchor="177.0">
          <font>
             <Font name="Tahoma Bold" size="28.0" />
          </font>
       </Button>
-      <Button layoutX="402.0" layoutY="177.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="193.0" style="-fx-background-radius: 9; -fx-background-color: #dbdbdb;" text="grammer" textFill="#474747f8">
+      <Button layoutX="402.0" layoutY="177.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="193.0" style="-fx-background-radius: 9; -fx-background-color: #dbdbdb;" text="grammer" textFill="#474747f8" AnchorPane.bottomAnchor="254.0" AnchorPane.leftAnchor="402.0" AnchorPane.topAnchor="177.0">
          <font>
             <Font name="Tahoma Bold" size="28.0" />
          </font>
       </Button>
-      <Text layoutX="145.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="learn english by lessons and games">
+      <Text layoutX="145.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="learn english by lessons and games" AnchorPane.bottomAnchor="146.703125" AnchorPane.leftAnchor="145.0" AnchorPane.rightAnchor="160.76171875" AnchorPane.topAnchor="302.296875">
          <font>
             <Font name="Berlin Sans FB" size="31.0" />
          </font>
